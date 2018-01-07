@@ -40,5 +40,9 @@ h2 {
 .carouselButton {
     height: 300px;
     background-color: rgb(110, 180, 64);
-    opacity: .1;
+    opacity: .60;
+}
+
+.caroueslButton:hover {
+    background-color: purple;
 }
