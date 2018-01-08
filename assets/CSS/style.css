@@ -12,7 +12,7 @@ p {
     font-size: 20px;
 }
 
-h2 {
+.center {
     text-align: center;
 }
 
@@ -25,15 +25,15 @@ h2 {
     margin: 25px auto 10px auto;
     border: 5px solid purple;
     position: relative;
+    height: 300px;
 }
 
 .carouselButton {
-    background-color: rgb(110, 180, 64);
-    opacity: .60;
+    background-color: rgb(63, 134, 16);
 }
 
 .carouselButton:hover {
-    background-color: purple;
+    background-color: rgb(91, 194, 22);
 }
 
 #playButton {
