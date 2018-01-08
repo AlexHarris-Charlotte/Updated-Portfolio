@@ -42,10 +42,25 @@
         <section>
             <hr>
             <!-- Project Carosel Section -->
-            <h2>Projects</h2>
-            <img id="imageCarousel" src="assets/Images/jqueryCalculator.jpg" alt="na;akljsdf;klajdf;lkajf;slfjas;lfjsdf">
-            <button class="btn btn-default carouselButton" id="leftButton">&lt;</button>
-            <button class="btn btn-default carouselButton" id="rightButton">&gt;</button>
+            <div id="project" class="row">
+                <h2 class="col-xs-12">Projects</h2>
+                <div class="row">
+                    <div>
+                        <div class="col-xs-3"></div>
+                            <a class="col-xs-6" id="projectLinks" href="https://github.com/AlexHarris-CharlotteCodeCamp/jQuery-Calculator">
+                                <img class="img-responsive" id="imageCarousel" src="assets/Images/jqueryCalculator.jpg" alt="na;akljsdf;klajdf;lkajf;slfjas;lfjsdf">
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="buttonRow">  
+                    <div class="col-xs-3"></div>
+                    <button class="btn btn-default carouselButton col-xs-1" id="leftButton">&lt;</button>
+                    <button class="btn btn-default  col-xs-4" id="playButton">Play</button>
+                    <button class="btn btn-default carouselButton col-xs-1" id="rightButton">&gt;</button>
+                </div>
+                <hr>
+            </div>
             <!-- <button>
                 <a href="#">GitHub</a>
             </button> -->
